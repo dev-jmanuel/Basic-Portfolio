@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Josh Manuel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Link to the font style -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">    
+    <!-- Link to the local css file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Link to the nav css file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/nav.css" />
+    <!-- Link to the slide css file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slide.css" />
+    <!-- Link to gallery css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/gallery.css">
+    <!-- Link to contacts css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css">
+    <!-- Link to jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link to CDN TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <!-- Link to FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body data-spy="scroll" data-target="nav ul">
+
+    <!-- Nav bar -->
+    <nav>
+        <div class="logo">Joshua Manuel</div>
+        <!-- Nav buttons -->
+        <ul>
+            <li><a href="#section-about">About</a></li> 
+            <li><a href="#section-projects">Projects</a></li> 
+            <li><a href="#section-photos">Photos</a></li>  
+            <li><a href="#section-contact">Contact</a></li>  
+        </ul>
+    </nav>  
+
+    <section class="sec1"></section>
+
+    <!-- About Section-->
+    <section class="section-about" id="section-about">
+
+        <section class="about-title">
+
+            <div><strong>About</strong></div>
+
+        </section>
+
+        <!-- Description -->
+        <section class="console-about">
+
+            <!-- Profile Pic -->
+            <img src="assets/images/Macy.JPG" alt="Profile Pic" class="profile-pic">
+
+            <!-- Description -->
+            <div class="description" id="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima libero porro reiciendis eligendi rerum, animi fugiat voluptas ipsa perferendis nihil incidunt corporis soluta. Deserunt, dolor quidem quas asperiores architecto tempora nemo, placeat quaerat dignissimos explicabo animi dolorum, reprehenderit quod totam ex. Inventore dolore quibusdam vero mollitia? Ipsam minima rerum quam.
+            </div>
+            
+        </section>
+    </section>
+
+    <!-- Projects -->
+    <section class="section-projects" id="section-projects">
+
+        <section class="projects-title">
+
+            <div><strong>Projects</strong></div>
+            
+        </section>
+
+
+        <!-- Projects previews -->
+        <section class="console-projects">
+            
+            <!-- Mini nav bar
+            <section class="nav-bar-mini">
+
+                    Nav buttons
+                    <section class="nav-mini"> 
+                    
+                        <a class="nav-btn">All</a>
+                        <a class="nav-btn">Javascript</a>  
+                        <a class="nav-btn">Node.js</a>  
+
+                    </section>
+            </section>      -->
+                
+            <!-- Project Previews -->
+            <div class="preview-proj" id="preview-proj">
+                <div class="slide active">
+                    <div class="card">
+                            <div class="card-img" id="img01"></div>
+                            <div class="card-content">
+                                <p class="card-theme">Javascript</p>
+                                <h2 class="card-header">RPS Advance</h2>
+                                <p class="card-para">RPS advance is a simple javascript app which allows a user to play Rock, Paper, Scissors against other players.</p>
+                            <a class="card-link">Read</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                            <div class="card-img" id="img02"></div>
+                            <div class="card-content">
+                                <p class="card-theme">Node</p>
+                                <h2 class="card-header">TV Show Guess</h2>
+                                <p class="card-para">The TV Show Guess game is a CLI app that allows the user to play a hangman style word guessing game of popular TV show titles</p>
+                            <a class="card-link">Read</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                            <div class="card-img" id="img03"></div>
+                            <div class="card-content">
+                                <p class="card-theme">Node</p>
+                                <h2 class="card-header">Bamazon</h2>
+                                <p class="card-para">Bamazon is an Amazon-like storefront CLI app that connects with MySQL. The app will interact with a MySQL database either as a customer, manager, or supervisor (depending on which module you choose to run).</p>
+                            <a class="card-link">Read</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="prevnext">
+                    <button class="pn-btn" id="prev"></button>
+                    <button class="pn-btn" id="next"></button>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+
+    <!-- Photos -->
+    <section class="section-photos" id="section-photos">
+
+        <section class="photos-title">
+
+            <div><strong>Photos</strong></div>
+            
+        </section>
+
+        <!-- Photo gallery -->
+        <section class="console-photos">
+
+            <!-- Photo previews -->
+            <div class="preview-photos" id="preview-photos">
+                <div><img src="assets/images/3.jpg"></div>
+                <div><img src="assets/images/5.jpg"></div>
+                <div><img src="assets/images/7.jpg"></div>
+                <div><img src="assets/images/8.jpg"></div>
+                <div><img src="assets/images/3.jpg"></div>
+                <div><img src="assets/images/5.jpg"></div>
+                <div><img src="assets/images/7.jpg"></div>
+                <div><img src="assets/images/8.jpg"></div>
+            </div>
+        
+        <!-- Link to flickr -->
+        
+
+        </section>
+        
+    </section>
+
+
+    <!-- Contact -->
+    <section class="section-contact" id="section-contact">
+
+        <section class="contact-title">
+
+            <div><strong>Contact</strong></div>
+            
+        </section>
+        
+        <div class="middle">
+            <a class="btn" href="#">
+                <i class="fab fa-google"></i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-wordpress"></i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-github"></i>
+            </a>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <div class="copyright">
+            <strong>© Joshua Manuel, 2019</strong>
+        </div>
+    </footer>
+
+
+
+    <!-- Link to local javascript file -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Link to local javascript file -->
+    <script src="assets/js/nav.js"></script>
+
+    <!-- Link to slider javascript file -->
+    <script src="assets/js/slider.js"></script>
+
+</body>
+</html>

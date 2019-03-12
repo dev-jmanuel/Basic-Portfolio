@@ -1,0 +1,172 @@
+/* ================================================= */
+/* Project Previews */
+.preview-proj {
+    width: 960px;
+    height: 610px;
+    background: white;
+    color: black;
+    font-family:'Raleway',sans-serif;
+    font-size: 35px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* ================================================= */
+
+.card-content {
+    padding: 10% 5%;
+    box-sizing: border-box;
+    width: 50%;
+    background: #f1f1f1;
+}
+
+.card-theme {
+    font-weight: 900;
+    font-size: 1.7vmin;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    letter-spacing: 10px;
+    color: #646464;
+}
+
+.card-header {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin: 3vmin 0 3.5vmin;
+    color: #f7a434;
+    font-family: "Raleway";
+}
+
+.card-para {
+    font-size: 2.0vmin;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+    color: #343434;
+    font-family: "Raleway";
+}
+
+.card-link {
+    color: #f7a434;
+    font-family: "Raleway";
+    font-size: 1.8vmin;
+    display: block;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.card-link:after {
+    content: "→";
+}
+
+/* ================================================= */
+
+.prevnext {
+    position: absolute;
+    width: 4vmin;
+    height: 8vmin;
+    right: 25%;
+    bottom: 0;
+    top: 10.5%;
+    color: #fff;
+    margin: auto 0;
+}
+
+.pn-btn {
+    color: #343434;
+    width: 100%;
+    height: 50%;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#prev, #next {
+    position: relative;
+    cursor: pointer;
+}
+
+#prev:focus, #next:focus {
+    outline: none;
+}
+
+#prev:hover:after, #next:hover:after {
+
+}
+
+#prev:after, #next:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+#prev:after {
+    content: "↑"
+}
+
+#next:after {
+    content: "↓"
+}
+
+/* ================================================= */
+
+.card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #fff;
+}
+
+.card-img {
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img01 {
+    background-image: url("https://images.unsplash.com/photo-1500236861371-c749e9a06b46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+
+#img02 {
+    background-image: url("https://images.unsplash.com/photo-1515178286217-de1968298e3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80");
+}
+
+#img03 {
+    background-image: url("https://images.unsplash.com/photo-1445355719921-2d8d660a0710?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+}
+
+/* #img01 {
+    background-image: url("https://images.unsplash.com/photo-1505324453012-a12195b84346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+}
+
+#img02 {
+    background-image: url(" https://images.unsplash.com/photo-1517223674523-595bea3551ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80");
+}
+
+#img03 {
+    background-image: url(" https://images.unsplash.com/photo-1485880776513-a4058931414e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+} */
