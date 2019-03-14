@@ -6,7 +6,7 @@
     <title>Josh Manuel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Link to the font style -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
     <!-- Link to the local css file -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- Link to the nav css file -->
@@ -47,7 +47,7 @@
 
         <section class="about-title">
 
-            <div><strong>About</strong></div>
+            <div style="font-weight: 600;">About</div>
 
         </section>
 
@@ -63,6 +63,10 @@
             </div>
             
         </section>
+
+        <section class="back-title">
+            <strong>About me</strong>
+        </section>
     </section>
 
     <!-- Projects -->
@@ -70,7 +74,7 @@
 
         <section class="projects-title">
 
-            <div><strong>Projects</strong></div>
+            <div style="font-weight: 600;">Projects</div>
             
         </section>
 
@@ -126,12 +130,16 @@
                             </div>
                     </div>
                 </div>
-                <div class="prevnext">
-                    <button class="pn-btn" id="prev"></button>
-                    <button class="pn-btn" id="next"></button>
-                </div>
+            </div>
+            <div class="prevnext">
+                <button class="pn-btn" id="prev"></button>
+                <button class="pn-btn" id="next"></button>
             </div>
             
+        </section>
+
+        <section class="back-title">
+            <strong>Projects</strong>
         </section>
     </section>
 
@@ -140,30 +148,37 @@
 
         <section class="photos-title">
 
-            <div><strong>Photos</strong></div>
+            <div style="font-weight: 600;">Photos</div>
             
         </section>
 
         <!-- Photo gallery -->
-        <section class="console-photos">
-
-            <!-- Photo previews -->
-            <div class="preview-photos" id="preview-photos">
-                <div><img src="assets/images/3.jpg"></div>
-                <div><img src="assets/images/5.jpg"></div>
-                <div><img src="assets/images/7.jpg"></div>
-                <div><img src="assets/images/8.jpg"></div>
-                <div><img src="assets/images/3.jpg"></div>
-                <div><img src="assets/images/5.jpg"></div>
-                <div><img src="assets/images/7.jpg"></div>
-                <div><img src="assets/images/8.jpg"></div>
-            </div>
+        <ul class="slider">
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="Panel 1">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="Panel 2">
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="Panel 3">
+            </li>
+            <li><a href="http://cssslider.com/">
+                <input type="radio" id="slide4" name="slide">
+                <label for="slide4"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/599584/home.jpg" alt="Panel 4"></a>
+            </li>
+        </ul>
         
-        <!-- Link to flickr -->
-        
-
+        <section class="back-title">
+            <strong>by me</strong>
         </section>
-        
     </section>
 
 
@@ -172,7 +187,7 @@
 
         <section class="contact-title">
 
-            <div><strong>Contact</strong></div>
+            <div style="font-weight: 600;">Contact</div>
             
         </section>
         
@@ -194,8 +209,8 @@
     </section>
     
     <footer>
-        <div class="copyright">
-            <strong>© Joshua Manuel, 2019</strong>
+        <div class="copyright" style="font-weight: 600;">
+            Joshua Manuel <a style="font-weight: 400; color: #f7a434;">© 2019</a>
         </div>
     </footer>
 

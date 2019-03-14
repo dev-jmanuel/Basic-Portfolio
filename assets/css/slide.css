@@ -78,15 +78,15 @@
 /* ================================================= */
 
 .prevnext {
-    position: absolute;
+    position: relative;
     width: 4vmin;
     height: 8vmin;
-    right: 25%;
-    bottom: 0;
-    top: 10.5%;
+    left: 58em;
+    bottom: 5em;
     color: #fff;
     margin: auto 0;
 }
+
 
 .pn-btn {
     color: #343434;

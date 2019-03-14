@@ -17,6 +17,7 @@ body {
     padding: 100px 0px;
     margin: 0px;
     background: #f1f1f1;
+    overflow: hidden;
 
 }
 
@@ -264,5 +265,17 @@ footer {
     border: 0px;
     padding: 0px;
     margin: 0px;
+
+}
+
+.back-title {
+    width: auto;
+    font-size: 500px;
+    background: none;
+    color: #f7a4349c;
+    position: relative;
+    top: 120px;
+    left: -40px;
+    display: none;
 
 }
